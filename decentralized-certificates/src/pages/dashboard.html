@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Institution Dashboard</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <h2>Issue Certificate</h2>
+    <form id="issueCertificateForm">
+        <label for="studentAddress">Student Address:</label>
+        <input type="text" id="studentAddress" required>
+        <label for="courseName">Course Name:</label>
+        <input type="text" id="courseName" required>
+        <label for="ipfsHash">IPFS Hash:</label>
+        <input type="text" id="ipfsHash" required>
+        <button type="submit">Issue Certificate</button>
+    </form>
+    <h2>Issued Certificates</h2>
+    <div id="certificates"></div>
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>
